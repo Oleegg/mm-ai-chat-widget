@@ -1,0 +1,26 @@
+.message-list {
+    list-style-type: none;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 0;
+}
+
+.message {
+    padding: 5px 10px;
+    max-width: 80%;
+    border-radius: 10px;
+    text-align: start;
+}
+
+.user {
+    background-color: #858685;
+    margin-left: auto;
+    flex-direction: row-reverse;
+}
+
+.gpt {
+    background-color: #3a7443;
+    margin-right: auto;
+}
