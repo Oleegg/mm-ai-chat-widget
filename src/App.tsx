@@ -1,7 +1,5 @@
-import React from 'react';
-import logo from './logo.svg';
 import './App.css';
-import ChatButton from './components/ChatButton';
+import ChatButton from './components';
 
 function App() {
   return (
